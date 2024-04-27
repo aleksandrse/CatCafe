@@ -1,0 +1,15 @@
+.header {
+  width: 1280px;
+  margin: 0 auto;
+  padding-right: 90px;
+  padding-left: 90px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.04), 0 0 2px rgba(0, 0, 0, 0.06),
+    0 0 1px rgba(0, 0, 0, 0.04);
+  z-index: 5;
+}
