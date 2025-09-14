@@ -1,0 +1,43 @@
+.star-card {
+  width: 353px;
+  min-height: 525 px;
+  background-color: #ffffff;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: left;
+}
+.star-card__figure {
+  margin: 0;
+  position: relative;
+  margin-bottom: 20px;
+}
+.cat {
+  position: absolute;
+  top: 0;
+  color: #ffffff;
+  padding: 8px 16px 8px 16px;
+  box-sizing: border-box;
+  border-radius: 8px 8px 8px 0;
+}
+.soft {
+  background-color: #7fc92e;
+}
+.new {
+  background-color: #ffb334;
+}
+
+.star-card__image {
+  display: block;
+  width: 100%;
+  height: 313px;
+  object-fit: contain;
+  border-radius: 8px;
+}
+.star-card__text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  margin: 0;
+  margin-top: 12px;
+  min-height: 108px;
+}
